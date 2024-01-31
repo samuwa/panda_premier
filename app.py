@@ -97,7 +97,7 @@ col2.dataframe(ventas_y_unidades, hide_index=True)
 prompt = st.text_area("**Pregúntale algo a la data :magic_wand:**")
 adf = SmartDataframe(df, config={'llm':llm})
 
-st.info('Puedes hacer preguntas como: "Cual fue el producto mas vendido y cuantas unidades se vendieron?", "Que porcentaje de clientes compró Samsung?", "Cuál fue el día con mejores ventas?"')
+st.info('Puedes hacer preguntas como: "Cual fue el producto mas vendido y cuantas unidades se vendieron?", "Que porcentaje de clientes compró Samsung?", "Cómo fueron las ventas por producto en el mes 5?"')
 # Generate output
 if st.button("Preguntar"):
     if prompt:
