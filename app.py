@@ -26,7 +26,7 @@ st.write(" - Capaces de captar datos y generar reportes")
 
 
 cl1, cl2, cl3 = st.columns([3,3,3])
-cl2.video("Chatbot_premier.mp4", 'rb')
+cl2.video("chatbot_premier.mp4", 'rb')
 
 st.markdown("##")
 
